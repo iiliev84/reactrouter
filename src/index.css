@@ -10,9 +10,15 @@ body > div {
   height: 100%;
   display: flex;
   flex-direction: column;
+  color: rgb(33, 102, 198);
+  background-color: rgb(178, 196, 219);
 }
 #container > div {
   display: flex;
+  background-color: #28dadd;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: large;
+  padding: 10px;
 }
 #navbar {
   padding: 2em;
@@ -37,7 +43,7 @@ body > div {
 }
 
 .home {
-  background-color: #55A630;
+  background-color: #05c6c9;
   color: white;
 }
 
@@ -46,17 +52,13 @@ body > div {
   color: white;
 }
 
-.footer{
-  background-color: #28dadd;
-  color: #ddda28;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: large;
-  padding: 10px;
-  justify-content: space-evenly;
+.green {
+  background-color: green;
+  color: white;
 }
 
-.container{
-  background-color: #28dadd;
+.footer{
+  background-color: #033637;
   color: #ddda28;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: large;
